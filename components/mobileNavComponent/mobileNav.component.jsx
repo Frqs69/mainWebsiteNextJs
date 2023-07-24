@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 
 export default function MobileNav() {
 	const [openMenu, setOpenMenu] = useState(false);
@@ -10,7 +11,13 @@ export default function MobileNav() {
 
 	return (
 		<nav className='Mobile flex items-center justify-between px-5 shadow-lg sticky top-0 bg-white z-10   md:hidden py-8'>
-			<img src='/logo-black.svg' alt='' className='w-24' />
+			<Image
+				width={50}
+				height={20}
+				src='/logo-black.svg'
+				alt=''
+				className='w-24'
+			/>
 			<div className=''>
 				<Icon
 					icon='iconamoon:menu-burger-horizontal'

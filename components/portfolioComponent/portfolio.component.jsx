@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Image from "next/image";
 
 import PortfolioCard from "../portfolioCardComponent/portfolioCard.component";
 
@@ -37,7 +38,13 @@ export default function Portfolio() {
 					/>
 
 					<div className='project bg-white p-5 rounded-xl shadow-3xl mb-10 md:grid md:grid-cols-2'>
-						<img className='rounded-xl' src='/mobileImg1.jpg' alt='' />
+						<Image
+							width={50}
+							height={20}
+							className='rounded-xl'
+							src='/mobileImg1.jpg'
+							alt=''
+						/>
 						<div>
 							<p className='projectTitle uppercase font-bold text-center my-5 md:text-xl'>
 								car rental
