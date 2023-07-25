@@ -20,14 +20,13 @@ export default function AboutMe() {
 					A dedicated Front-end Developer based in Warsaw, Poland 📍
 				</h2>
 				<p className='text-secondTextColor text-center px-12 text-sm mb-16 md:text-left md:px-0 md:leading-7 md:text-lg '>
-					As a Junior Front-End Developer, I possess an impressive arsenal of
-					skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
-					designing and maintaining responsive websites that offer a smooth user
-					experience. My expertise lies in crafting dynamic, engaging interfaces
-					through writing clean and optimized code and utilizing cutting-edge
-					development tools and techniques. I am also a team player who thrives
-					in collaborating with cross-functional teams to produce outstanding
-					web applications.
+					As a Junior Front-End Developer, I wield a diverse skill set
+					encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS. My area
+					of expertise revolves around designing and maintaining responsive
+					websites that offer a seamless and delightful user experience. My
+					passion lies in creating dynamic, interactive interfaces through the
+					art of writing clean and optimized code, while staying at the
+					forefront of cutting-edge development tools and techniques.
 				</p>
 			</div>
 		</div>

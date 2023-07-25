@@ -9,8 +9,8 @@ export default function Header() {
 			<div className='md:w-3/5 md:min-w-[1100px] mx-auto'>
 				<div className='md:flex md:flex-row-reverse   mx-auto md:mt-20 md:justify-between'>
 					<Image
-						src='/moje.png'
-						alt='ja'
+						src='/me.png'
+						alt='my photo'
 						width={300}
 						height={300}
 						className={`mx-auto w-64 h-64 md:w-96 md:h-96 md:mx-0 ${classes.heroImg} `}
@@ -21,8 +21,8 @@ export default function Header() {
 							Front-end React Developer
 						</h1>
 						<p className='text-secondTextColor text-center px-4 mb-10  md:text-left md:px-0 md:text-lg md:w-4/5'>
-							Hi, I&apos;m Kamil Bazyluk. A passionate Front-end React Developer
-							based in Warsaw, Poland. 📍
+							Hi, I&apos;m Kamil. A passionate Front-end React Developer based
+							in Warsaw, Poland. 📍
 						</p>
 						<div className='linkbox flex justify-center gap-3 mb-10 md:justify-normal'>
 							<a href='https://github.com/Frqs69' target='_blank'>
