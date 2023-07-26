@@ -14,6 +14,7 @@ export default function Header() {
 						width={300}
 						height={300}
 						className={`mx-auto w-64 h-64 md:w-96 md:h-96 md:mx-0 ${classes.heroImg} `}
+						loading={"eager"}
 					/>
 
 					<div className='md:w-1/2 '>
