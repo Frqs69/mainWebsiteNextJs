@@ -7,7 +7,7 @@ import Footer from "@/components/footerComponent/footer.component";
 
 export default function Home() {
 	return (
-		<div className="overflow-x-hidden">
+		<div className='overflow-x-clip'>
 			<Nav />
 			<Header />
 			<AboutMe />
