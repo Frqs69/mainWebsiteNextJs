@@ -12,6 +12,7 @@
 	scroll-padding-top: var(--scroll-padding, 80px);
 }
 
-body {
+body,
+html {
 	overflow-x: hidden;
 }
