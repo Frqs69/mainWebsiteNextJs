@@ -7,7 +7,7 @@ export default function DesktopNav() {
 					<Image
 						width={50}
 						height={20}
-						src='/logo-black.svg'
+						src='/logo-black.png'
 						alt=''
 						className='w-24'
 					/>
