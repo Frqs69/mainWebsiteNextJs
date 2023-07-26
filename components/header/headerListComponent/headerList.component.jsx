@@ -25,6 +25,9 @@ export default function HeaderList() {
 				<Icon icon='devicon:react' className='m-4 md:m-0' width='30' />
 			</HeaderListItem>
 			<HeaderListItem>
+				<Icon icon='logos:nextjs-icon' className='m-4 md:m-0' width='30' />
+			</HeaderListItem>
+			<HeaderListItem>
 				<Icon icon='logos:tailwindcss-icon' width='30' />
 			</HeaderListItem>
 			<HeaderListItem>

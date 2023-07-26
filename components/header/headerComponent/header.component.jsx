@@ -26,12 +26,20 @@ export default function Header() {
 						</p>
 						<div className='linkbox flex justify-center gap-3 mb-10 md:justify-normal'>
 							<a href='https://github.com/Frqs69' target='_blank'>
-								<Icon icon='mdi:github' width='25' />
+								<Icon
+									icon='mdi:github'
+									width='25'
+									className='hover:text-thirdColor transition-colors duration-300'
+								/>
 							</a>
 							<a
 								href='https://www.linkedin.com/in/kamil-bazyluk-3a9979174'
 								target='_blank'>
-								<Icon icon='bi:linkedin' width='25' />
+								<Icon
+									icon='bi:linkedin'
+									width='25'
+									className='hover:text-thirdColor transition-colors duration-300'
+								/>
 							</a>
 						</div>
 					</div>

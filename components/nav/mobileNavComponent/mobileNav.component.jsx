@@ -10,7 +10,7 @@ export default function MobileNav() {
 	};
 
 	return (
-		<nav className='Mobile flex items-center justify-between px-5 shadow-lg sticky top-0 bg-white z-10   md:hidden py-8'>
+		<nav className='Mobile flex items-center justify-between px-5 shadow-lg sticky top-0 bg-white z-20   md:hidden py-8'>
 			<Image
 				width={50}
 				height={20}

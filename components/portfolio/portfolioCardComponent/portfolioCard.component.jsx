@@ -53,10 +53,16 @@ export default function PortfolioCard({
 					))}
 				</div>
 				<div className='links flex justify-center gap-6 mt-8'>
-					<a href={githubLink} className='flex items-center' target='_blank'>
+					<a
+						href={githubLink}
+						className='flex items-center hover:text-thirdColor transition-colors duration-300'
+						target='_blank'>
 						Code <Icon icon='mdi:github' width='30' className='ml-1' />
 					</a>
-					<a href={liveLink} className='flex items-center' target='_blank'>
+					<a
+						href={liveLink}
+						className='flex items-center hover:text-thirdColor transition-colors duration-300'
+						target='_blank'>
 						Live demo{" "}
 						<Icon icon='akar-icons:link-out' width='20' className='ml-1' />
 					</a>

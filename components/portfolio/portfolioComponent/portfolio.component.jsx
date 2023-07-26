@@ -1,7 +1,6 @@
-import { Icon } from "@iconify/react";
-import Image from "next/image";
-
 import PortfolioCard from "../portfolioCardComponent/portfolioCard.component";
+import SectionDescription from "@/components/sectionDescription";
+import SectionTitle from "@/components/sectionTitle.component";
 
 export default function Portfolio() {
 	return (
@@ -9,13 +8,11 @@ export default function Portfolio() {
 			className='secondSection bg-backgroundColor pt-8 pb-16 '
 			id='portfolio'>
 			<div className='md:w-3/5 md:min-w-[1100px]  md:mx-auto'>
-				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:text-xl md:text-left md:mt-20'>
-					Portfolio
-				</h3>
-				<h2 className='font-bold text-mainTextColor text-center text-2xl px-2 mb-6 md:text-left md:text-3xl md:px-0 md:mb-20'>
+				<SectionDescription>Portfolio</SectionDescription>
+				<SectionTitle>
 					Each project is a unique piece of development 🧩
-				</h2>
-				<div className='projectList px-5 md:px-0'>
+				</SectionTitle>
+				<div className='projectList px-5 md:px-0 md:mt-16'>
 					<PortfolioCard
 						img={"/pizzaWebsiteImgEdited.png"}
 						name={"Pizzaku 🍕"}

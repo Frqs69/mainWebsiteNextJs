@@ -1,4 +1,6 @@
 import Image from "next/image";
+import SectionDescription from "../sectionDescription";
+import SectionTitle from "../sectionTitle.component";
 
 export default function AboutMe() {
 	return (
@@ -13,12 +15,10 @@ export default function AboutMe() {
 				height={300}
 			/>
 			<div>
-				<h3 className='font-bold text-thirdColor uppercase text-center mb-3 mt-8 md:mt-0 md:text-left md:text-xl'>
-					About me
-				</h3>
-				<h2 className='font-bold text-mainTextColor text-center text-2xl px-2 mb-6 md:text-left md:px-0 md:text-3xl'>
+				<SectionDescription className='md:mt-0	'>About me</SectionDescription>
+				<SectionTitle>
 					A dedicated Front-end Developer based in Warsaw, Poland 📍
-				</h2>
+				</SectionTitle>
 				<p className='text-secondTextColor text-center px-12 text-sm mb-16 md:text-left md:px-0 md:leading-7 md:text-lg '>
 					As a Junior Front-End Developer, I wield a diverse skill set
 					encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS. My area
