@@ -6,7 +6,7 @@ export default function AboutMe() {
 	return (
 		<div
 			className='aboutMeSection pt-20 md:w-3/5 md:min-w-[1100px] md:mx-auto md:grid md:grid-cols-2 md:pb-32 md:pt-32'
-			id='aboutMe'>
+			name='aboutMe'>
 			<Image
 				src='/mobileImg1.jpg'
 				alt='RandomImg'

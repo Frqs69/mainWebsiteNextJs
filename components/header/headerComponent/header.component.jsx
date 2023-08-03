@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Header() {
 	return (
-		<header className='bg-backgroundColor pt-10 md:pb-10 '>
+		<header className='bg-backgroundColor pt-10 md:pb-10 ' name='home'>
 			<div className='md:w-3/5 md:min-w-[1100px] mx-auto'>
 				<div className='md:flex md:flex-row-reverse   mx-auto md:mt-20 md:justify-between'>
 					<Image

@@ -6,7 +6,7 @@ export default function Portfolio() {
 	return (
 		<div
 			className='secondSection bg-backgroundColor pt-8 pb-16 '
-			id='portfolio'>
+			name='portfolio'>
 			<div className='md:w-3/5 md:min-w-[1100px]  md:mx-auto'>
 				<SectionDescription>Portfolio</SectionDescription>
 				<SectionTitle>
